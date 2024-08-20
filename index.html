@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wdth,wght@75,100..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<title>Em busca do Tesouro perdido</title>
+</head>
+<body>
+<main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.png"alt=""> 
+        <p>Em um dia ensolarado, no seu navio pirata, você encontra um baú com dois mapas, um branco e um amarelo, você decide pegar um deles e ir atrás do tesouro!</p>
+        <button class="btn-proximo" data-proximo="1">Pegar o mapa branco</button>
+        <button class="btn-proximo" data-proximo="2">Pegar o mapa amarelo</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Você chega a uma pequena ilha, descendo do seu navio e andando um pouco você encontra a sua primeira pista, dentro de uma garrafa de vidro.</p>
+        <button class="btn-proximo" data-proximo="3">Pega-lá</button>
+        <button class="btn-proximo" data-proximo="4">Ignora-lá e continuar com as intruções do mapa</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>O mapa amarelo te leva até uma cidade, seguindo as instruções você encontra um envelope dentro de uma caixa.</p>
+        <button class="btn-proximo" data-proximo="5">Abrir a caixa e pegar o envelope</button>
+        <button class="btn-proximo" data-proximo="6">Não pegar o envelope</button>
+    </div>
+        <div class="passo" id="passo-3">
+        <p>Você abre a garrafa e lê o que está escrito nela, no papel diz para você seguir para o Norte da ilha e encontrar mais uma garrafa com outra pista.</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para o Norte da ilha</button>
+        </div>
+
+    <div class="passo" id="passo-4">
+        <img src="cenario-passo4.png" alt="">
+        <p>Você não pega a pista e não consegue achar o tesouro com apenas as informações do mapa, não foram o suficiente para você entra-ló, com esse resultado você volta para casa.</p>
+    </div>
+
+    <div class="passo" id="passo-5">
+        <p>No envelope estava uma pista muito valiosa, ela te fala que no Norte da ilha, bem longe da cidade, estava a última pista!</p>
+        <button class="btn-proximo" data-proximo="7">Ir para a bahia da Ilha atrás da última pista</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+        <p>Explorando a cidade, sem a pista do envelope você segue sem rumo pela cidadizinha, você olha no mapa e segue para uma construção indicada nele, nessa construção não á nada de interresante.</p>
+        <button class="btn-proximo" data-proximo="8"> Voltar e pegar o envelope. </button>
+    </div>
+
+    <div class="passo" id="passo-7">
+        <p>No Norte Ilha, a busca pelo tesouro perdido se intensifica. Você se depara com um caminho bifurcado.</p>
+        <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+        <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+    </div>
+
+    <div class="passo" id="passo-8">
+        <p>Você pega o envelope e lê, ele indica que a última pista está bem longa da cidade, está no Norte da Ilha!</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para o Norte da Ilha.</button>
+    </div>
+
+    <div class="passo" id="passo-9">
+        <p>O caminho à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a achada do
+            One piece!</p>
+        <button class="btn-proximo" data-proximo="11">Explorar as diversas recompensas do tesouro!</button>
+    </div>
+
+    <div class="passo" id="passo-10">
+        <p>O caminho à direita termina em uma floresta de mata fechada. Apesar de belas vistas, não há sinais do tesouro.
+            aqui.</p>
+        <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+    </div>
+
+    <div class="passo" id="passo-11">
+        <img src="Tesouro.png" alt="">
+        <p>O One piece tem tesouros inimagináveis e incriveís!
+            r</p>
+    </div>
+
+    <div class="passo" id="passo-12">
+        <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+            que levam ao One piece.</p>
+        <button class="btn-proximo" data-proximo="11">Explorar as diversas recompensas do tesouro!</button>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
